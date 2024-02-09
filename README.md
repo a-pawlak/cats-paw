@@ -2,7 +2,7 @@
 
 ##
 
-## It's a landing page, which helps you:
+## It's a page, which helps you:
 
-*find a cat to adopt,
-*help other cats by your donation.
+* find a cat to adopt,
+* help other cats by your donation.
