@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.png">
+    <link rel="apple-touch-icon" href="./images/apple-touch-logo.png">
+    <link rel="manifest" href="manifest.webmanifest" />
+    <script
+    
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <script src="./js/script.js" defer type="module"></script>
+    <title>Cat's paw &ndash; find new friend!</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <ion-icon class="logo-icon" name="paw-outline"></ion-icon>
+        <span class="logo-name">Cat's paw</span>
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-bar-list">
+          <li class="nav-bar-list-item">
+            <a href="#how-to-support" class="nav-link">How to support</a>
+          </li>
+          <li class="nav-bar-list-item">
+            <a href="#cats-story" class="nav-link">Happy 'catomers'</a>
+          </li>
+          <li class="nav-bar-list-item">
+            <a href="#support-plans" class="nav-link">What to do</a>
+          </li>
+          <li class="nav-bar-list-item">
+            <a href="#cta" class="nav-link-last">Start supporting</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <section id="hero" class="hero margin-bottom-bg">
+      <div class="grid-wrapper">
+        <div class="hero-text">
+          <h1 class="header-primary">Give the cat high five to it's paw</h1>
+          <p class="hero-text--text">
+            You can adopt a cat just like a millions other people in the world
+            did it. Cat is big friend, which gives you a lot of warmness,
+            purring and sometimes even mouses!
+          </p>
+          <div class="action-btn">
+            <button class="btn">Find new friend!</button>
+            <a href="#how-to-support" class="learn-more">Learn more &darr;</a>
+          </div>
+        </div>
+
+        <div class="saved-cats">
+          <div class="saved-imgs">
+            <img src="./images/cat1-sm.jpg" alt="cat face" />
+            <img src="./images/cat2-sm.jpg" alt="cat face" />
+            <img src="./images/cat3-sm.jpg" alt="cat face" />
+            <img src="./images/cat4-sm.jpg" alt="cat face" />
+            <img src="./images/cat5-sm.jpg" alt="cat face" />
+          </div>
+          <span class="saved-text">
+            <span class="saved-number">3000+</span> cats fed &saved last year!
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-to-support" class="how-to-support">
+      <div class="container">
+        <span class="subheading">How it works</span>
+        <h2 class="heading-secondary">Support in 3 simple steps</h2>
+      </div>
+      <div class="container grid grid--3-cols">
+        <!-- step1 -->
+        <div class="step-card">
+          <div class="step-num">01</div>
+          <p class="step-text-heading">Find your cat-friend</p>
+          <p class="step-text-text">
+            Login and get access to all photos and informations about ours cat,
+            which waiting for you.
+          </p>
+        </div>
+        <!-- step2 -->
+        <div class="step-card">
+          <div class="step-num">02</div>
+          <p class="step-text-heading">Choose support</p>
+          <p class="step-text-text">
+            Choose type of support. There is a lot of posibilities.
+          </p>
+        </div>
+        <!-- step3 -->
+        <div class="step-card">
+          <div class="step-num">03</div>
+          <p class="step-text-heading">Start good job!</p>
+          <p class="step-text-text">
+            Get your own support plan from Cat's Paw and be cat-friendly in your
+            life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cats-story" class="cats-story">
+      <div class="container">
+        <span class="subheading">Cat's story</span>
+        <h2 class="heading-secondary">Our happy 'catomers'</h2>
+      </div>
+
+      <div class="container cats-story-card grid grid--2-cols">
+        <div class="grid grid--2-cols">
+          <div class="cats-story-img-frame">
+            <img src="./images/cat1-md.webp" alt="happy cat" />
+          </div>
+          <div class="cats-story-card-wrapper">
+            <p class="cats-story-card-text">
+              It was found in old mills. Skinny, sick and frightned.About 30
+              people supported Nico, till it was adopted.
+            </p>
+            <p class="cats-story-card-name">Nico</p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="cats-story-img-frame">
+            <img src="./images/cat2-md.webp" alt="happy cat" />
+          </div>
+          <div class="cats-story-card-wrapper">
+            <p class="cats-story-card-text">
+              We found this smiley kitty in recycled bin. Somebody put it there
+              i leaved. Now is hapilly adopted.
+            </p>
+            <p class="cats-story-card-name">Zoltana</p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="cats-story-img-frame">
+            <div class="cats-story-img-frame">
+              <img src="./images/cat3-md.webp" alt="happy cat" />
+            </div>
+          </div>
+          <div class="cats-story-card-wrapper">
+            <p class="cats-story-card-text">
+              It was found in old mills. Skinny, sick and frightned.About 30
+              people supported Nico, till it was adopted.
+            </p>
+            <p class="cats-story-card-name">Nico</p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="cats-story-img-frame">
+            <img src="./images/cat4-md.webp" alt="happy cat" />
+          </div>
+          <div class="cats-story-card-wrapper">
+            <p class="cats-story-card-text">
+              We found this smiley kitty in recycled bin. Somebody put it there
+              i leaved. Now is hapilly adopted.
+            </p>
+            <p class="cats-story-card-name">Zoltana</p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="cats-story-img-frame">
+            <img src="./images/cat5-md.webp" alt="happy cat" />
+          </div>
+          <div class="cats-story-card-wrapper">
+            <p class="cats-story-card-text">
+              It was found in old mills. Skinny, sick and frightned.About 30
+              people supported Nico, till it was adopted.
+            </p>
+            <p class="cats-story-card-name">Nico</p>
+          </div>
+        </div>
+        <div class="grid grid--2-cols">
+          <div class="cats-story-img-frame">
+            <img src="./images/cat6-md.webp" alt="happy cat" />
+          </div>
+          <div class="cats-story-card-wrapper">
+            <p class="cats-story-card-text">
+              We found this smiley kitty in recycled bin. Somebody put it there
+              i leaved. Now is hapilly adopted.
+            </p>
+            <p class="cats-story-card-name">Zoltana</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support-plans" class="support-plans">
+      <div class="container">
+        <span class="subheading">Subscriptions</span>
+        <h2 class="heading-secondary">
+          Start helping in your own style & posibilities
+        </h2>
+      </div>
+      <div class="container grid grid--2-cols">
+        <div class="subscription-card">
+          <header class="subs-header">
+            <p class="plan-name">Donate</p>
+            <p class="plan-price"><span>from $</span>5</p>
+            <p class="plan-text">no credit card needed</p>
+          </header>
+          <ul class="subs-list">
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Point the cat
+            </li>
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Select payment
+            </li>
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Get proof of expences
+            </li>
+            <li class="subs-list-item">
+              <ion-icon class="subs-list-icon" name="close-outline"></ion-icon
+              >&nbsp;
+            </li>
+          </ul>
+          <div class="btn-subs">
+            <button class="btn">Support now!</button>
+          </div>
+        </div>
+        <div class="subscription-card subscribe">
+          <header class="subs-header">
+            <p class="plan-name">Subcribe</p>
+            <p class="plan-price"><span>from $</span>15</p>
+            <p class="plan-text">no credit card needed</p>
+          </header>
+          <ul class="subs-list">
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Point the cat
+            </li>
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Select period
+            </li>
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Get proof of expences
+            </li>
+            <li class="subs-list-item">
+              <ion-icon
+                class="subs-list-icon"
+                name="checkmark-outline"
+              ></ion-icon
+              >Get updateted photos
+            </li>
+          </ul>
+          <div class="btn-subs">
+            <button class="btn">Support now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="features" class="features">
+      <div class="container">
+        <span class="subheading">Features</span>
+      <div class="container features-container">
+        <div class="feature">
+          <ion-icon name="gift-outline"></ion-icon>
+          <p class="feature-title">Named package</p>
+          <p class="feature-text">
+            You can send a package. It can be anything cats need.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon name="accessibility-outline"></ion-icon>
+          <p class="feature-title">Volunteering</p>
+          <p class="feature-text">Come to us and help by your hand.</p>
+        </div>
+        <div class="feature">
+          <ion-icon name="cash-outline"></ion-icon>
+          <p class="feature-title">Donation</p>
+          <p class="feature-text">
+            Make a one-time donation. You can address it.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon name="calendar-outline"></ion-icon>
+          <p class="feature-title">Subscription</p>
+          <p class="feature-text">
+            Support using plan. Per month, quarter or year.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta">
+      <div class="container">
+        <div class="cta-box">
+          <p class="cta-heading">Look for your cat-friend!</p>
+        <p class="cta-text">
+          It's best opportunity to small change in your life and small change in world. Another step to be empathetic!
+        </p>
+        <form action="#" class="cta-form">
+          <div>
+            <label for="name">Full name</label>
+          <input type="text" class="name" id="name" placeholder="Hannah Smith" required>
+          </div>
+          <div>
+            <label for="phone">Phone number (optional)</label>
+          <input type="text" class="name" id="phone" placeholder="+01 1111 222 333" required>
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+          <input type="email" class="name" id="email" placeholder="me@example.com"  required>
+          </div>
+          <button class="btn btn-cta">Sign up now</button>
+        </form>
+        </div>
+        <div class="img-cta"></div>
+      </div>
+    </section>
+
+    <footer class="footer container grid grid--3-cols">
+      <div class="logo-footer">
+        <div class="logo">
+        <ion-icon class="logo-icon" name="paw-outline"></ion-icon>
+        <span class="logo-name">Cat's paw</span>
+      </div>
+      <ul class="social-links">
+        <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a></li>
+        <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a></li>
+        <li><a class="footer-link" href="#"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a></li>
+      </ul>
+      <p class="copyright">Copyright &copy; <span class="year">2023</span> by Cat's Paw, Inc. All rights reserved.</p>
+    </div>
+    <div class="address-col">
+      <p class="footer-heading">Contact us</p>
+      <address class="contacts">
+      <p class="address">
+        626 Catters St., 2nd Floor, <br />San Francisco, CA 94107
+      </p>
+      <p>
+        <a class="footer-link"  href="tel:415-201-6370">123-456-7890</a> <br />        
+        <a class="footer-link"  href="mailto:hello@omnifood.com">hello@catspaw.com</a>
+        </p>
+      </address>
+    </div>
+
+    <nav class="nav-col">
+      <p class="footer-heading">Company</p>
+      <ul class="footer-nav">
+        <li><a class="footer-link" href="">About Cat's Paw</a>             </li>
+          <li><a class="footer-link" href="#">For Business</a></li>
+          <li><a class="footer-link" href="#">Our partners</a></li>
+          <li><a class="footer-link" href="#">Careers</a></li>
+      </ul>
+    </nav>
+    </footer>
+  </body>
+</html>

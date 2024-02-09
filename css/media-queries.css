@@ -1,0 +1,182 @@
+/* 1020 */
+@media (max-width: 63em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/* 816px */
+@media (max-width: 51em) {
+  .btn-mobile-nav {
+    display: block;
+    margin-left: auto;
+  }
+  .nav-bar {
+    background-image: linear-gradient(to right, #f3eeea, #fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-bar-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr) 1.4fr;
+    justify-items: center;
+  }
+
+  .nav-open .nav-bar {
+    opacity: 0.85;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 4.8rem;
+  }
+
+  .nav-link-last:link,
+  .nav-link-last:visited {
+    font-size: 3.2rem;
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .how-to-support .grid {
+    grid-template-columns: 1fr;
+    max-width: 50rem;
+  }
+  .cats-story-card.grid {
+    grid-template-columns: 1fr;
+  }
+  .cats-story-card img {
+    width: 50%;
+  }
+  .cats-story-img-frame {
+    display: flex;
+    justify-content: center;
+  }
+  .support-plans > .grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .subscription-card {
+    max-width: 45rem;
+  }
+  .subscription-card,
+  .subscription-card:first-child {
+    justify-self: center;
+  }
+
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cta .container {
+    grid-template-columns: 1fr;
+  }
+  .img-cta {
+    grid-row: 1;
+  }
+}
+/* 550px */
+@media (max-width: 34em) {
+  .cats-story-card img {
+    width: 100%;
+  }
+  .hero .header-primary {
+    line-height: 1;
+    font-size: 4.8rem;
+    font-weight: 500;
+    margin-bottom: 3.2rem;
+  }
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2.4rem;
+  }
+  .logo-footer {
+    grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* 400px */
+@media (max-width: 25em) {
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn-cta {
+    margin-top: 1.6rem;
+  }
+  .cta .container {
+    margin-bottom: 6.4rem;
+  }
+  .header {
+    margin-bottom: 2.4rem;
+  }
+  .hero {
+    margin: 2.4rem 0 3.2rem 0;
+    padding: 2.4rem 0;
+  }
+  .support-plans {
+    margin-bottom: 0;
+  }
+  .features {
+    margin-bottom: 4.8rem;
+    padding: 0 0;
+  }
+  .how-to-support {
+    padding: 2.4rem 0 4.8rem 0;
+  }
+  .cats-story {
+    margin-bottom: 2.4rem;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3.2rem;
+  }
+
+  .nav-link-last:link,
+  .nav-link-last:visited {
+    font-size: 2.4rem;
+  }
+  .cats-story-card img {
+    width: 100%;
+  }
+  .cats-story .grid {
+    grid-template-columns: 1fr;
+    row-gap: 1.2rem;
+  }
+  .how-to-support .grid {
+    row-gap: 2.4rem;
+  }
+  .how-to-support .heading-secondary {
+    margin-bottom: 1.6rem;
+  }
+  .step-card {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  }
+  .step-num {
+    font-size: 6.4rem;
+  }
+}

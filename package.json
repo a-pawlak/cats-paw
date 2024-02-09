@@ -1,0 +1,9 @@
+{
+  "name": "cats_paw",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {},
+  "author": "Arkadiusz Pawlak",
+  "license": "ISC",
+  "description": "Site helping in adoptions of cats"
+}
